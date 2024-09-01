@@ -1,22 +1,22 @@
 var mongoose = require('mongoose');
 
-const familySchema=new mongoose.Schema({
-    name:{
+const familySchema = new mongoose.Schema({
+    name: {
         type: String,
         required: true,
     },
-    age:{
+    age: {
         type: Number,
         required: true,
     },
-   contact:{
+    contact: {
         type: Number,
-        required:true,
+        required: true,
     },
-    relation:{
+    relation: {
         type: String,
-        required:true,
+        required: true,
     }
 })
 
-module.exports = mongoose.model("family",familySchema);
+module.exports = mongoose.model("family", familySchema);
