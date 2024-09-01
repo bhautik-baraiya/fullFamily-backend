@@ -1,4 +1,4 @@
-var family = require("../model/family");
+const family = require("../model/family");
 
 exports.AddFamily = async (req, res) => {
   try {
@@ -35,7 +35,6 @@ exports.getFamily = async (req, res) => {
     });
   }
 };
-
 
 exports.delFamily = async (req, res) => {
   try {

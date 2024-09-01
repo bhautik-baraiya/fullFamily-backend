@@ -9,7 +9,7 @@ var debug = require('debug')('node-js-final:server');
 var http = require('http');
 var mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://bhautik:12345@bhautik.jwdpxcv.mongodb.net/family").then(() => console.log("Mongo Db Server started"))
+
 
 
 /**
